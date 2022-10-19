@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Predict</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container mx-6 my-6">
+      <h1 class="title">Toxic Comment Classifier</h1>
+
+      <h3 class="subtitle">Enter Your Comment</h3>
+      <div class="container">
+        <form method="post">
+          <textarea
+            class="textarea"
+            placeholder="e.g. Enter your comment to predict"
+            name="comment"
+            rows="10"
+          ></textarea>
+          <br />
+          <button class="button is-danger" type="submit">Predict</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

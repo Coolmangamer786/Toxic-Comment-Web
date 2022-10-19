@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Flask Test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+</head>
+
+<body>
+    <div class="container mx-6 my-6">
+        <article class="message is-danger my-5">
+            <div class="message-header">
+                <p>Toxic</p>
+                <button class="delete" aria-label="delete"></button>
+            </div>
+            <div class="message-body">
+                Your message is 72.6% toxic.
+            </div>
+        </article>
+        <h1 class="title">Toxic Comment Classifier</h1>
+
+        <h3 class="subtitle">Enter Your Comment</h3>
+        <div class="container">
+            <form method="post">
+                <textarea class="textarea " placeholder="e.g. Enter your comment to predict" name="comment"
+                    rows="10"></textarea>
+                <br>
+                <button class="button is-danger" type="submit">Predict</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
