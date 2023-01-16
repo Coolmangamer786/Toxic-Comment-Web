@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 import warnings
-from test import predict
+from read_models import predict
 
 warnings.filterwarnings('ignore')
 
